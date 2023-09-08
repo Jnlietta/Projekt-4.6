@@ -12,16 +12,35 @@ $color-sm:#222222;
 body {
     width: 1400px;
     height: 2607px;
+    margin:0 auto;
 }
+.home {
+    border:1px solid black;
+    margin:0 auto;
+    width:100%;
+    height: 700px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.home:before {
+    content:'';
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
 
 /*Navigation*/
 .navigation { 
+    //border:1px solid blue;
     margin:0 auto;
-    margin-top:50px;
+    margin-top:44px;
     display:flex;
     gap: 374px;
-    //border:1px solid blue;
-    /* Style for "Header" */
     width: 933px;
     height: 28px;
 }
@@ -41,6 +60,8 @@ body {
     line-height: 41px;
     text-align: left;
     display:flex;
+    position:relative;
+    z-index: 1;
 }
 .navbar-logo {
     font-style: normal;
@@ -68,6 +89,7 @@ body {
     //border: 1px solid red;
     display: inline-block;
     position: relative; 
+    z-index: 1;
 }
 
 .nav-link {
@@ -88,11 +110,56 @@ body {
     color: #33d9b2; 
 }
 
-/* Style for "Golden" */ /*
-
-.container {
-    border:1px solid blue;
+/*Splash*/
+.splash {
+    //border:1px solid red;
+    height:100%;
+    position:relative;
+    transform: translateY(-78px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-.navbar-brand {
-    color:yellow;
-} */
+.splash-inner{
+    //border:1px solid white;
+    transform: translateY(66px);
+}
+.splash-inner h2 {
+    //width: 430px;
+    //height: 32px;
+    margin:0;
+    margin-bottom: 14px;
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.splash-inner h1 {
+    //width: 844px;
+    //height: 55px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: -1.88px;
+    line-height: normal;
+}
+.btn{
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    border:none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
