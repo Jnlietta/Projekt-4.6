@@ -13,6 +13,57 @@ body {
     width: 1400px;
     height: 2607px;
     margin:0 auto;
+    box-shadow: 5px 5px 15px #737373;
+}
+.container {
+    //border:1px solid black;
+    margin: 0 auto;
+    padding:110px 0;
+    width:941px;
+    text-align: center;
+}
+.container h2 {
+    color: #222222;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+.container h4{
+    margin: 15px auto 80px auto;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: lighter;
+}
+.container h3 {
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    font-style: normal;
+    letter-spacing: -0.45px;
+    line-height: normal;
+}
+.container p{
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.35px;
+    line-height: normal;
 }
 .home {
     border:1px solid black;
@@ -23,7 +74,6 @@ body {
     text-align: center;
     position: relative;
 }
-
 .home:before {
     content:'';
     position:absolute;
@@ -32,8 +82,7 @@ body {
     width:100%;
     height:100%;
     background: rgba(0, 0, 0, 0.5);
-  }
-
+}
 /*Navigation*/
 .navigation { 
     //border:1px solid blue;
@@ -129,7 +178,9 @@ body {
     //height: 32px;
     margin:0;
     margin-bottom: 14px;
-    font-family: 'Noto Serif', serif;
+    font-family: "Droid Serif";
+    font-style: italic;
+    font-weight: lighter;
     font-size: 40px;
     text-align: center;
     letter-spacing: normal;
@@ -162,4 +213,57 @@ body {
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
+}
+
+/*Services*/
+.services .container{
+    height:568px;
+}
+   
+.card-service {
+    //border:1px solid red;
+    text-align: center;
+    
+}
+.icon {
+    width: 68px;
+    height: 67px;
+    border: 3px solid #fed136;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    width: 40px;
+    height: 39px;
+    color: #fed136;
+    font-size: 30px;
+    transform: translateY(5px);
+}
+
+/*Portfolio*/
+.portfolio {
+    background-color: #f7f7f7;
+}
+.card-portfolio {
+    background-color: #ffffff;
+    width:291px;
+    height:393px;
+    margin-bottom: 50px;
+    padding-bottom: 27px;
+}
+.image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-portfolio h3 {
+    margin-top:29px;
+    margin-bottom: 4px;
+}
+.card-portfolio h4 {
+    margin:0;
 }
