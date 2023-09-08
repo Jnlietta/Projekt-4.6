@@ -1,3 +1,33 @@
+/*Variables*/
+/*Global*/
+body {
+  width: 1400px;
+  height: 2607px;
+  opacity: -1;
+}
 
+/* Style for "Golden" */ /*
+width: 79px;
+height: 28px;
+color: #fed136;
+color: #ffffff;
+font-family: "Wisdom - Script";
+font-size: 26px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 41px;
+text-align: left;
+/* Text style for "G, olden" */ /*
+color: #fed136;
+font-style: normal;
+letter-spacing: 1.3px;
+line-height: normal;
+.container {
+    border:1px solid blue;
+}
+.navbar-brand {
+    color:yellow;
+} */
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBT0EsU0FBQTtBQUNBO0VBQ0ksYUFBQTtFQUNBLGNBQUE7RUFDQSxXQUFBO0FDTEo7O0FET0EsdUJBQUEsRUFBQTs7Ozs7Ozs7Ozs7OzhCQUFBLEVBWWdDOzs7Ozs7Ozs7O0dBQUEiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
