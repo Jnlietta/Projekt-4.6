@@ -267,3 +267,55 @@ i {
 .card-portfolio h4 {
     margin:0;
 }
+
+/*Footer*/
+
+.page-footer .container {
+    padding:0;
+    margin:0 auto;
+    //border:1px solid black;
+    max-height: 100%;
+}
+.brand{
+    display:flex;
+    align-items: center;
+}
+.page-footer h3 {
+    width: 255px;
+    height: 14px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: -0.35px;
+    line-height: normal;
+}
+.footer-icons {
+    /*border:1px solid black;*/
+    padding:0;
+    margin:0;
+}
+
+.footer-icons ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.footer-icons li {
+    display: inline-block;
+    margin:0;
+    font-size:0;
+}
+.footer-icons i {
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+    background-color:black;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    border-radius: 50%;
+    scale: 0.7;
+}
