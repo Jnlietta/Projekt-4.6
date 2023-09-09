@@ -67,6 +67,7 @@ body {
 }
 .home {
     border:1px solid black;
+    background-image:url('../images/image.png');
     margin:0 auto;
     width:100%;
     height: 700px;
@@ -248,10 +249,12 @@ i {
 .portfolio {
     background-color: #f7f7f7;
 }
+
 .card-portfolio {
     background-color: #ffffff;
     width:291px;
     height:393px;
+    margin:0 auto;
     margin-bottom: 50px;
     padding-bottom: 27px;
 }
@@ -276,7 +279,7 @@ i {
     //border:1px solid black;
     max-height: 100%;
 }
-.brand{
+.footer-brand{
     display:flex;
     align-items: center;
 }
@@ -318,4 +321,37 @@ i {
     line-height:60px;
     border-radius: 50%;
     scale: 0.7;
+}
+
+/*Media*/
+@media (max-width: 992px) {
+    body {
+        max-width: 767px;
+        max-height: auto;
+        box-shadow: none;
+    }
+    .container {
+        //border:1px solid black;
+        max-width:90%;
+    }
+    .services .container{
+        height:auto;
+    }
+    .home {
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+    .navigation { 
+        max-width: 90%;
+        gap: 10%;
+        //border: 1px solid red;
+    }
+    .page-footer h3 {
+        text-align: center;
+        margin:10px auto;
+    }
+    .footer-icons i {
+        scale: 0.6;
+    }
 }
